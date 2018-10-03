@@ -1,3 +1,3 @@
 # Gods (Golang Data Structures)
 
-Data structure and algorithms implement in Golang
+Data structure and algorithms implementation in Golang
