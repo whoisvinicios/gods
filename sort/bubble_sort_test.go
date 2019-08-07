@@ -1,6 +1,7 @@
 package sort
 
 import (
+	"gods/utils/arrays"
 	"testing"
 )
 
@@ -21,22 +22,8 @@ var test = []struct {
 func TestBubbleSort(t *testing.T) {
 	for _, array := range test {
 		BubbleSort(array.array)
-		if !Equal(array.array, array.expect) {
+		if !arrays.Equal(array.array, array.expect) {
 			t.Error("exp:", array.expect, "got:", array.array)
 		}
 	}
-}
-
-// Equal tells whether a and b contain the same elements.
-// A nil argument is equivalent to an empty slice.
-func Equal(a, b []int) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for i, v := range a {
-		if v != b[i] {
-			return false
-		}
-	}
-	return true
 }

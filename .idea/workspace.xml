@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292f2641-b66a-4685-844b-885fff62dc85" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/utils/arrays/equals.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/arrays/swap.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/bubble_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/bubble_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble_sort_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,16 +24,6 @@
   <component name="GOROOT" path="/usr/local/go1.12.5.darwin-amd64" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/gods.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="1P4bJHro3jzW8XFwluYq8satkp8" />
   <component name="PropertiesComponent">
