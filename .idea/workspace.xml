@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292f2641-b66a-4685-844b-885fff62dc85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/utils/arrays/equals.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/arrays/swap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/selection_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/selection_sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/bubble_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/bubble_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble_sort_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestSelectionSort in gods/sort">
     <configuration name="TestBubbleSort in gods/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gods" />
       <working_directory value="$PROJECT_DIR$/sort" />
@@ -61,8 +59,20 @@
       <pattern value="^TestBubbleSort$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSelectionSort in gods/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gods" />
+      <working_directory value="$PROJECT_DIR$/sort" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gods/sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSelectionSort$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSelectionSort in gods/sort" />
         <item itemvalue="Go Test.TestBubbleSort in gods/sort" />
       </list>
     </recent_temporary>
@@ -75,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
