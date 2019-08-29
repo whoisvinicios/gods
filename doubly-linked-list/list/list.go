@@ -2,7 +2,7 @@ package list
 
 import (
 	"fmt"
-	"gods/doubly-linked-list"
+	"gods/doubly-linked-list/node"
 )
 
 type List struct {
@@ -19,7 +19,7 @@ func CreateList() *List {
 	}
 }
 
-func (l *List) Add(n *node.Node) error {
+func (l *List) Add(n *node.Node) {
 	if l.Head == nil {
 		l.Head = n
 	} else {
@@ -28,7 +28,6 @@ func (l *List) Add(n *node.Node) error {
 		n.Previous = l.Tail
 	}
 	l.Tail = n
-	return nil
 }
 
 func (l *List) PrintAllNodes() error {
@@ -37,7 +36,7 @@ func (l *List) PrintAllNodes() error {
 	}
 	currentNode := l.Head
 	for currentNode.Next != nil {
-		fmt.Printf("%+v", *currentNode)
+		fmt.Printf("%+v\n", *currentNode)
 		currentNode = currentNode.Next
 	}
 	return nil

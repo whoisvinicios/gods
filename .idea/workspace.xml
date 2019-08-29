@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292f2641-b66a-4685-844b-885fff62dc85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doubly-linked-list/list/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doubly-linked-list/node.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doubly-linked-list/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubly-linked-list/list/list.go" beforeDir="false" afterPath="$PROJECT_DIR$/doubly-linked-list/list/list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubly-linked-list/node.go" beforeDir="false" afterPath="$PROJECT_DIR$/doubly-linked-list/node/node.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doubly-linked-list/node" />
       <recent name="$PROJECT_DIR$/doubly-linked-list/list" />
     </key>
   </component>
@@ -58,7 +60,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestInsertionSort in gods/sort">
+  <component name="RunManager" selected="Go Build.go build gods/doubly-linked-list">
+    <configuration name="go build gods/doubly-linked-list" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gods" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/doubly-linked-list/main.go" />
+      <package value="gods/doubly-linked-list" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestBubbleSort in gods/sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gods" />
       <working_directory value="$PROJECT_DIR$/sort" />
@@ -94,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gods/doubly-linked-list" />
         <item itemvalue="Go Test.TestInsertionSort in gods/sort" />
         <item itemvalue="Go Test.TestSelectionSort in gods/sort" />
         <item itemvalue="Go Test.TestBubbleSort in gods/sort" />
