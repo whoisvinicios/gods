@@ -17,12 +17,12 @@ import "gods/utils/arrays"
 
 func SelectionSort(array []int) {
 	for lastUnsortedIndex := len(array) - 1; lastUnsortedIndex > 0; lastUnsortedIndex-- {
-		var largest int
+		var greater int
 		for index := 0; index <= lastUnsortedIndex; index++ {
-			if array[index] > array[largest] {
-				largest = index
+			if array[index] > array[greater] {
+				greater = index
 			}
 		}
-		arrays.Swap(array, largest, lastUnsortedIndex)
+		arrays.Swap(array, greater, lastUnsortedIndex)
 	}
 }
